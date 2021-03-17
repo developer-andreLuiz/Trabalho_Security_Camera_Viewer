@@ -1,0 +1,282 @@
+﻿namespace SecurityCameraViewer.FrmsPlayersVideo
+{
+    partial class FrmFullScreem
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmFullScreem));
+            this.btnAddCaixas = new System.Windows.Forms.Button();
+            this.btnAddLoja = new System.Windows.Forms.Button();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.mediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.btnPause1 = new System.Windows.Forms.Button();
+            this.btnStop1 = new System.Windows.Forms.Button();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.lblRealTime1 = new System.Windows.Forms.Label();
+            this.btnAvX1 = new System.Windows.Forms.Button();
+            this.btnPlay1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblTimeAtual1 = new System.Windows.Forms.Label();
+            this.btnRetroX1 = new System.Windows.Forms.Button();
+            this.btnNext1 = new System.Windows.Forms.Button();
+            this.btnPrev1 = new System.Windows.Forms.Button();
+            this.lblTimeTotal1 = new System.Windows.Forms.Label();
+            this.lblTitulo1 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            ((System.ComponentModel.ISupportInitialize)(this.mediaPlayer1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // btnAddCaixas
+            // 
+            this.btnAddCaixas.Location = new System.Drawing.Point(2, 665);
+            this.btnAddCaixas.Name = "btnAddCaixas";
+            this.btnAddCaixas.Size = new System.Drawing.Size(56, 22);
+            this.btnAddCaixas.TabIndex = 145;
+            this.btnAddCaixas.Text = "Caixas";
+            this.btnAddCaixas.UseVisualStyleBackColor = true;
+            // 
+            // btnAddLoja
+            // 
+            this.btnAddLoja.Location = new System.Drawing.Point(64, 665);
+            this.btnAddLoja.Name = "btnAddLoja";
+            this.btnAddLoja.Size = new System.Drawing.Size(56, 22);
+            this.btnAddLoja.TabIndex = 144;
+            this.btnAddLoja.Text = "Loja";
+            this.btnAddLoja.UseVisualStyleBackColor = true;
+            // 
+            // lbl1
+            // 
+            this.lbl1.AutoSize = true;
+            this.lbl1.BackColor = System.Drawing.Color.White;
+            this.lbl1.ForeColor = System.Drawing.Color.Black;
+            this.lbl1.Location = new System.Drawing.Point(-1, 631);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(35, 13);
+            this.lbl1.TabIndex = 143;
+            this.lbl1.Text = "label1";
+            this.lbl1.Visible = false;
+            // 
+            // mediaPlayer1
+            // 
+            this.mediaPlayer1.Enabled = true;
+            this.mediaPlayer1.Location = new System.Drawing.Point(0, 0);
+            this.mediaPlayer1.Name = "mediaPlayer1";
+            this.mediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("mediaPlayer1.OcxState")));
+            this.mediaPlayer1.Size = new System.Drawing.Size(1140, 644);
+            this.mediaPlayer1.TabIndex = 142;
+            // 
+            // btnPause1
+            // 
+            this.btnPause1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPause1.Location = new System.Drawing.Point(529, 674);
+            this.btnPause1.Name = "btnPause1";
+            this.btnPause1.Size = new System.Drawing.Size(72, 22);
+            this.btnPause1.TabIndex = 141;
+            this.btnPause1.Text = "Pause";
+            this.btnPause1.UseVisualStyleBackColor = true;
+            // 
+            // btnStop1
+            // 
+            this.btnStop1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStop1.Location = new System.Drawing.Point(607, 674);
+            this.btnStop1.Name = "btnStop1";
+            this.btnStop1.Size = new System.Drawing.Size(72, 22);
+            this.btnStop1.TabIndex = 140;
+            this.btnStop1.Text = "Stop";
+            this.btnStop1.UseVisualStyleBackColor = true;
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(0, 644);
+            this.progressBar1.MarqueeAnimationSpeed = 9000000;
+            this.progressBar1.Maximum = 1800;
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(1140, 13);
+            this.progressBar1.Step = 1;
+            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.progressBar1.TabIndex = 135;
+            // 
+            // lblRealTime1
+            // 
+            this.lblRealTime1.AutoSize = true;
+            this.lblRealTime1.ForeColor = System.Drawing.Color.White;
+            this.lblRealTime1.Location = new System.Drawing.Point(842, 679);
+            this.lblRealTime1.Name = "lblRealTime1";
+            this.lblRealTime1.Size = new System.Drawing.Size(21, 13);
+            this.lblRealTime1.TabIndex = 134;
+            this.lblRealTime1.Text = "1 x";
+            // 
+            // btnAvX1
+            // 
+            this.btnAvX1.Location = new System.Drawing.Point(763, 674);
+            this.btnAvX1.Name = "btnAvX1";
+            this.btnAvX1.Size = new System.Drawing.Size(29, 22);
+            this.btnAvX1.TabIndex = 133;
+            this.btnAvX1.Text = ">>";
+            this.btnAvX1.UseVisualStyleBackColor = true;
+            // 
+            // btnPlay1
+            // 
+            this.btnPlay1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlay1.Location = new System.Drawing.Point(451, 674);
+            this.btnPlay1.Name = "btnPlay1";
+            this.btnPlay1.Size = new System.Drawing.Size(72, 22);
+            this.btnPlay1.TabIndex = 139;
+            this.btnPlay1.Text = "Play";
+            this.btnPlay1.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(1073, 665);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(12, 13);
+            this.label1.TabIndex = 136;
+            this.label1.Text = "/";
+            // 
+            // lblTimeAtual1
+            // 
+            this.lblTimeAtual1.AutoSize = true;
+            this.lblTimeAtual1.ForeColor = System.Drawing.Color.White;
+            this.lblTimeAtual1.Location = new System.Drawing.Point(1018, 665);
+            this.lblTimeAtual1.Name = "lblTimeAtual1";
+            this.lblTimeAtual1.Size = new System.Drawing.Size(49, 13);
+            this.lblTimeAtual1.TabIndex = 130;
+            this.lblTimeAtual1.Text = "00:00:00";
+            // 
+            // btnRetroX1
+            // 
+            this.btnRetroX1.Location = new System.Drawing.Point(728, 674);
+            this.btnRetroX1.Name = "btnRetroX1";
+            this.btnRetroX1.Size = new System.Drawing.Size(29, 22);
+            this.btnRetroX1.TabIndex = 132;
+            this.btnRetroX1.Text = "<<";
+            this.btnRetroX1.UseVisualStyleBackColor = true;
+            // 
+            // btnNext1
+            // 
+            this.btnNext1.Location = new System.Drawing.Point(798, 674);
+            this.btnNext1.Name = "btnNext1";
+            this.btnNext1.Size = new System.Drawing.Size(29, 22);
+            this.btnNext1.TabIndex = 138;
+            this.btnNext1.Text = ">>|";
+            this.btnNext1.UseVisualStyleBackColor = true;
+            // 
+            // btnPrev1
+            // 
+            this.btnPrev1.Location = new System.Drawing.Point(693, 674);
+            this.btnPrev1.Name = "btnPrev1";
+            this.btnPrev1.Size = new System.Drawing.Size(29, 22);
+            this.btnPrev1.TabIndex = 137;
+            this.btnPrev1.Text = "|<<";
+            this.btnPrev1.UseVisualStyleBackColor = true;
+            // 
+            // lblTimeTotal1
+            // 
+            this.lblTimeTotal1.AutoSize = true;
+            this.lblTimeTotal1.ForeColor = System.Drawing.Color.White;
+            this.lblTimeTotal1.Location = new System.Drawing.Point(1091, 665);
+            this.lblTimeTotal1.Name = "lblTimeTotal1";
+            this.lblTimeTotal1.Size = new System.Drawing.Size(49, 13);
+            this.lblTimeTotal1.TabIndex = 131;
+            this.lblTimeTotal1.Text = "00:00:00";
+            // 
+            // lblTitulo1
+            // 
+            this.lblTitulo1.AutoSize = true;
+            this.lblTitulo1.ForeColor = System.Drawing.Color.White;
+            this.lblTitulo1.Location = new System.Drawing.Point(1, 697);
+            this.lblTitulo1.Name = "lblTitulo1";
+            this.lblTitulo1.Size = new System.Drawing.Size(33, 13);
+            this.lblTitulo1.TabIndex = 129;
+            this.lblTitulo1.Text = "Titulo";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(1146, 3);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(157, 693);
+            this.listBox1.TabIndex = 146;
+            // 
+            // FrmFullScreem
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(1308, 711);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.btnAddCaixas);
+            this.Controls.Add(this.btnAddLoja);
+            this.Controls.Add(this.lbl1);
+            this.Controls.Add(this.mediaPlayer1);
+            this.Controls.Add(this.btnPause1);
+            this.Controls.Add(this.btnStop1);
+            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.lblRealTime1);
+            this.Controls.Add(this.btnAvX1);
+            this.Controls.Add(this.btnPlay1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblTimeAtual1);
+            this.Controls.Add(this.btnRetroX1);
+            this.Controls.Add(this.btnNext1);
+            this.Controls.Add(this.btnPrev1);
+            this.Controls.Add(this.lblTimeTotal1);
+            this.Controls.Add(this.lblTitulo1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "FrmFullScreem";
+            this.Text = "FrmFullScreem";
+            ((System.ComponentModel.ISupportInitialize)(this.mediaPlayer1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnAddCaixas;
+        private System.Windows.Forms.Button btnAddLoja;
+        private System.Windows.Forms.Label lbl1;
+        private AxWMPLib.AxWindowsMediaPlayer mediaPlayer1;
+        private System.Windows.Forms.Button btnPause1;
+        private System.Windows.Forms.Button btnStop1;
+        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Label lblRealTime1;
+        private System.Windows.Forms.Button btnAvX1;
+        private System.Windows.Forms.Button btnPlay1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblTimeAtual1;
+        private System.Windows.Forms.Button btnRetroX1;
+        private System.Windows.Forms.Button btnNext1;
+        private System.Windows.Forms.Button btnPrev1;
+        private System.Windows.Forms.Label lblTimeTotal1;
+        private System.Windows.Forms.Label lblTitulo1;
+        private System.Windows.Forms.ListBox listBox1;
+    }
+}
